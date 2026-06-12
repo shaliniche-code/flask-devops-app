@@ -37,10 +37,6 @@ Flask Application on AWS EC2
 
 ![Jenkins Build](screenshots/jenkinsbuild.png)
 
-## Containerized Application
-
-![Containerized Application](screenshots/containerizedapp.png)
-
 ## GitHub Webhook Trigger
 
 ![Webhook Trigger](screenshots/webhook.png)
@@ -48,3 +44,7 @@ Flask Application on AWS EC2
 ## Docker Running Container
 
 ![Docker Container](screenshots/docker_running_container.png)
+
+## Containerized Application
+
+![Containerized Application](screenshots/containerizedapp.png)
