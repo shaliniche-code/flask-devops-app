@@ -1,11 +1,44 @@
 **Built an end-to-end CI/CD pipeline using GitHub, Jenkins, Docker, and AWS EC2. Configured GitHub webhooks to automatically trigger Jenkins pipelines on code commits. Automated Docker image builds and application deployment on AWS infrastructure.**
 
+**Architecture**
 
-Jenkinsbuild-    https://github.com/shaliniche-code/flask-devops-app/blob/main/jenkinsbuild.png
+Developer
+    ↓
+GitHub
+    ↓
+Webhook
+    ↓
+Jenkins
+    ↓
+Docker Build
+    ↓
+Docker Deploy
+    ↓
+Flask Application
 
+**Skills Demonstrated**
 
-Containerized-app    https://github.com/shaliniche-code/flask-devops-app/blob/main/containerizedapp.png
+Git
+GitHub
+GitHub Webhooks
+Jenkins
+Docker
+Linux
+AWS EC2
+CI/CD
 
-Webhook_trigger    https://github.com/shaliniche-code/flask-devops-app/blob/main/webhook.png
+## Jenkins Build Success
 
-docker_running_container  https://github.com/shaliniche-code/flask-devops-app/blob/main/docker_running_container.png
+![Jenkins Build](screenshots/jenkinsbuild.png)
+
+## Containerized Application
+
+![Containerized Application](screenshots/containerizedapp.png)
+
+## GitHub Webhook Trigger
+
+![Webhook Trigger](screenshots/webhook.png)
+
+## Docker Running Container
+
+![Docker Container](screenshots/docker_running_container.png)
