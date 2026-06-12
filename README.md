@@ -1,31 +1,36 @@
-**Built an end-to-end CI/CD pipeline using GitHub, Jenkins, Docker, and AWS EC2. Configured GitHub webhooks to automatically trigger Jenkins pipelines on code commits. Automated Docker image builds and application deployment on AWS infrastructure.**
+# CI/CD Pipeline for Flask Application Deployment
 
-**Architecture**
+## Project Overview
 
+Built an end-to-end CI/CD pipeline using GitHub, Jenkins, Docker, and AWS EC2.
+
+## Architecture
+
+```text
 Developer
     ↓
 GitHub
     ↓
-Webhook
+GitHub Webhook
     ↓
-Jenkins
+Jenkins Pipeline
     ↓
 Docker Build
     ↓
 Docker Deploy
     ↓
-Flask Application
+Flask Application on AWS EC2
+```
 
-**Skills Demonstrated**
+## Skills Demonstrated
 
-Git
-GitHub
-GitHub Webhooks
-Jenkins
-Docker
-Linux
-AWS EC2
-CI/CD
+- Git
+- GitHub
+- Jenkins
+- Docker
+- AWS EC2
+- Linux
+- CI/CD
 
 ## Jenkins Build Success
 
