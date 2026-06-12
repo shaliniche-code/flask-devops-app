@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hi from DevOps CI/CD Pipeline!"
+    return "Hi from DevOps CI/CD Pipeline hello!"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
